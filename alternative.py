@@ -1,9 +1,11 @@
 user_string = input("Please enter sentence: ")
+import os
 
 #Part one: Alternating Letters
 
 # This empty string will contain the altered upper/lower letters
 new_user_string = ""
+os.system('cls')
 
 for i in range(len(user_string)):
 
@@ -15,7 +17,7 @@ for i in range(len(user_string)):
         new_user_string += user_string[i].lower()
 
 print(new_user_string)
-
+print()
 
 #Part two: Alternating words
 
